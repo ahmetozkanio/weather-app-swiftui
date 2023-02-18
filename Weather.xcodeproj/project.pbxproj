@@ -11,6 +11,8 @@
 		4825456F29A13C8E00BEBA0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825456E29A13C8E00BEBA0C /* ContentView.swift */; };
 		4825457129A13C8F00BEBA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4825457029A13C8F00BEBA0C /* Assets.xcassets */; };
 		4825457429A13C8F00BEBA0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4825457329A13C8F00BEBA0C /* Preview Assets.xcassets */; };
+		4825458229A13FD500BEBA0C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825458129A13FD500BEBA0C /* Extensions.swift */; };
+		4825458429A141AF00BEBA0C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825458329A141AF00BEBA0C /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4825456E29A13C8E00BEBA0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4825457029A13C8F00BEBA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4825457329A13C8F00BEBA0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4825458129A13FD500BEBA0C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4825458329A141AF00BEBA0C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				4825456C29A13C8E00BEBA0C /* WeatherApp.swift */,
-				4825456E29A13C8E00BEBA0C /* ContentView.swift */,
+				4825457C29A13EEF00BEBA0C /* Views */,
+				4825457B29A13EE900BEBA0C /* Models */,
+				4825457A29A13EE000BEBA0C /* Utils */,
 				4825457029A13C8F00BEBA0C /* Assets.xcassets */,
 				4825457229A13C8F00BEBA0C /* Preview Content */,
 			);
@@ -65,6 +71,62 @@
 				4825457329A13C8F00BEBA0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4825457A29A13EE000BEBA0C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4825458129A13FD500BEBA0C /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4825457B29A13EE900BEBA0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4825457C29A13EEF00BEBA0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4825457D29A13F3800BEBA0C /* Main */,
+				4825457E29A13F3F00BEBA0C /* Navigation */,
+				4825457F29A13F4A00BEBA0C /* Detail */,
+				4825458029A13F5000BEBA0C /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4825457D29A13F3800BEBA0C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4825456E29A13C8E00BEBA0C /* ContentView.swift */,
+				4825458329A141AF00BEBA0C /* HomeView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4825457E29A13F3F00BEBA0C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4825457F29A13F4A00BEBA0C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		4825458029A13F5000BEBA0C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4825456F29A13C8E00BEBA0C /* ContentView.swift in Sources */,
+				4825458429A141AF00BEBA0C /* HomeView.swift in Sources */,
+				4825458229A13FD500BEBA0C /* Extensions.swift in Sources */,
 				4825456D29A13C8E00BEBA0C /* WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
